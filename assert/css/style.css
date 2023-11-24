@@ -85,6 +85,7 @@ nav {
     background-image: url(../img/about-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
     overflow: hidden;
     /* height: 100vh; */
@@ -184,11 +185,6 @@ nav {
     background-color: #a18c3e;
 }
 
-.need a:hover {
-    /* background-color: rgb(19, 91, 19); */
-    border-bottom: 2px solid #a18c3e;
-    border-top: 2px solid #a18c3e;
-}
 
 .food {
     display: flex;
@@ -392,10 +388,12 @@ img {
     border: none;
     border: 1px solid #a18c3e;
     outline: none;
+    color: white !important;
 }
 .deail textarea{
-    background:black;
+    background:black !important;
     border: none;
+    color: #eeee !important;
     border: 1px solid #a18c3e;   
     outline: none;
 }
@@ -409,6 +407,9 @@ footer{
     background:black;
     color: #eeee;
 }
+input{
+    color: #eeee !important;
+}
 footer input{
     border-radius: 30px !important;
     background-color: rgb(25, 20, 20) !important;
@@ -418,8 +419,8 @@ footer button{
     border-radius: 30px !important;
     background-color: #a18c3e !important;
     color: #eeee;
-    margin-left: -90px !important;
 }
+
 
 
 @media screen and (max-width:700px) {
