@@ -428,23 +428,18 @@ footer button{
         color: #eeee;
         font-size: 2.30rem;
         font-weight: bold;
-        margin-top: 200px;
+        margin-top: auto 0;
         overflow: hidden;
     }
 
-    /* .home {
+    .home {
         text-align: center;
-    } */
+    }
 
     .home p {
         color: #eeee;
         font-size: 1.50rem;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-/* 
-    .mods span {
-        float: inline-end;
-        font-size: 1rem;
-        color: #a18c3e;
-    } */
+
 }
